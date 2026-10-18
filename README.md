@@ -5,9 +5,9 @@ El Algoritmo de Dialéctica Fractal Cognitiva (ADFC) es un modelo teórico y com
 NOTAS ORIGINALES Y PSEUDOCODE DE BASE A > 1+[3’ -1’] =1+[2’(-1’)] > A/B > 1 +[2’(-1’) = 1’+1’] + [[3*-1*+3*-1*]] = 1+ [2’(-1’)= 1’+1’]+[[2*(-1*)+2*(-1*)]] > A/B/C > 1 +[2’(-1’)=1’+1’]+[ [2*(-1*)+2*(-1*)=1*+1*+1*+1*]]+[[[3”-1”+3”-1”+3”-1”+3”-1”]]] =1+[2’(-1’)=1’+1’]+[ [2*(-1*)+2*(-1*)=1*+1*+1*+1*]]+[[[2”(-1”)+2”(-1”)+2”(-1”)+2”(-1”)]]]>A/B/C/D
 
  ARQUITECTURA LOGICA Y FORMALIDAD MATEMATICA • Las etapas de ramas (A, B, C, D) serán el nivel (n) donde (n = 1, 2, 3, 4…). • Los corchetes incrementales [ ], [[ ]] se representarán mediante un operador de sumatoria (Σ) que acumula los niveles anteriores. • El paso de “limpiar y juntar” (donde un bloque de 3 se reduce a un bloque de 2) se expresa como una constante de transformación. Definiendo el proceso como una función F(n), donde (n) representa la etapa actual de ramificación, la ecuación general se estructura de la siguiente manera: 
-          n    i-1
+.         n    i-1
 F(n)= 1 + Σ   2     • R
-         i=1           i
+.        i=1           i
 
 Donde Ri reprecenta el comportamiento de la ramificacion en cada nivel (i)
 
